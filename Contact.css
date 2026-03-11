@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.top{
+    background: black;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav1{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav2 a{
+    color: white;
+    text-decoration:none;
+    margin: 0 15px;
+}
+
+.nav2 a:hover{
+    color: orange;
+}
+
+.nav3 a{
+    background: orange;
+    color: black;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.text1{
+    background-image: url(4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+marquee{
+    background: orange;
+    padding: 18px;
+}
+
+.c{
+    margin-left: 100px;
+    color: white;
+    width: 500px;
+}
+
+.text2 h1{
+    font-size: 55px;
+    margin: 0;
+    color: orange;
+    /* padding-left: 100px; */
+}
+
+
+
+.text2 p{
+    margin-top: 20px;
+    margin-left: 200px;
+    color: orange;
+    width: 60%;
+}
+.rabta{
+    width: 500px;   
+    background: white;
+    padding: 30px;  
+    margin: 80px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 100px gray;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+#pros{
+    margin-top: 25px;
+    margin-left: 200px;
+    background: rgba(255, 255, 0, 0.479);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+#pros:hover{
+    color: darkorange;
+    transition: 0.3s;
+}
+
+iframe{
+    width: 100%;
+}

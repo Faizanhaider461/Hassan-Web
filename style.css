@@ -1,0 +1,713 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.top{
+    background: black;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 22px;
+    border-color: orange;
+    
+}
+
+.nav1{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+.nav2{
+    
+    border-bottom: 32px;
+    border-color: orange;
+}
+.nav2 a{
+    color: white;
+    text-decoration:none;
+    margin: 0 15px;
+}
+
+.nav2 a:hover{
+    color: orange;
+}
+
+.nav3 a{
+    background: orange;
+    color: black;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.text1{
+    background-image: url(https://preview.colorlib.com/theme/gamewarrior/img/slider-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.c{
+    margin-left: 100px;
+    color: white;
+    width: 500px;
+}
+
+.text2 #fop{
+    font-size: 55px;
+    color: white;
+    padding-left: 100px;
+}
+#fo1{
+    font-size: 55px;
+    color: orange;
+    padding-left: 10px;
+}
+#fop1{
+    font-size: 55px;
+    color: white;
+    padding-left: 10px;
+}
+/* .text2 #fo1{
+    font-size: 55px;
+    
+    color: orange;
+    padding-left: 100px;
+}
+.text2 #fop1{
+    font-size: 55px;
+    
+    color: white;
+    
+} */
+/* .text2 span{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+} */
+.text2 h1{
+    display: flex;
+}
+
+
+
+.text2 p{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+}
+marquee{
+    background: orange;
+    padding: 18px;
+}
+
+button{
+    margin-top: 25px;
+    margin-left: 200px;
+    background: #f4a825;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+button:hover{
+    color: white;
+    transition: 0.3s;
+}
+/* .pic1{
+    background-image: url(1.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 20%;
+    box-shadow: 0px 0px 50px ;
+}
+.pic2{
+    background-image: url(2.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 20%;
+     box-shadow: 0px 0px 50px ;
+}
+.pic3{
+    background-image: url(3.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 20%;
+     box-shadow: 0px 0px 50px ;
+}
+.pic4{
+    background-image: url(4.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 20%;
+     box-shadow: 0px 0px 50px ;
+}
+.por{
+    display: flex;
+    justify-content: center;
+    gap: calc(40px);
+    margin-bottom: 150px;
+     
+}
+
+.pic1 h2{
+    font-size: 19px;
+    padding-top: 200px;
+    padding-bottom: 35px;
+    color: white;
+}
+.pic2 h2{
+    font-size: 19px;
+    padding-top: 200px;
+        padding-bottom: 35px;
+
+    color: white;
+}
+.pic3 h2{
+    font-size: 19px;
+    padding-top: 200px;
+        padding-bottom: 35px;
+
+    color: white;
+}
+.pic4 h2{
+    font-size: 19px;
+    padding-top: 200px;
+        padding-bottom: 25px;
+
+    color: white;
+
+}
+.pic1 p{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: gold;
+}
+.pic2 p{
+    width: 100%;
+    padding-top: 50px;
+    font-size: 18px;
+    color: gold;
+    padding-left: 20px;
+}
+.pic3 p{
+    width: 100%;
+    padding-top: 50px;
+    font-size: 18px;
+    color: gold;
+    padding-left: 20px;
+}
+.pic4 p{
+    width: 100%;
+    padding-top: 50px;
+    font-size: 18px;
+    color: gold;
+    padding-left: 20px;
+} */
+
+.por{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 150px;
+}
+.pic1{
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 22%;
+    box-shadow: 0px 0px 30px black;
+    padding: 20px;
+}
+.pic2{
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 22%;
+    box-shadow: 0px 0px 30px black;
+    padding: 20px;
+}
+
+.pic3{
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width:22%;
+    box-shadow: 0px 0px 30px black;
+    padding: 20px;
+}
+
+.pic4{
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 22%;
+    box-shadow: 0px 0px 30px black;
+    padding: 20px;
+}
+
+.pic1{
+     background-image: url(1.jpg);
+ }
+.pic2{ background-image: url(2.jpg);
+}
+.pic3{ background-image: url(3.jpg);
+}
+.pic4{ background-image: url(4.jpg); 
+}
+
+.pic1 h2{
+    font-size: 20px;
+    padding-top: 260px;
+    color: white;
+}
+.pic2 h2{
+    font-size: 20px;
+    padding-top: 260px;
+    color: white;
+}
+.pic3 h2{
+    font-size: 20px;
+    padding-top: 260px;
+    color: white;
+}
+
+.pic4 h2{
+    font-size: 20px;
+    padding-top: 260px;
+    color:white;
+}
+.pic1 p{
+    font-size: 15px;
+    color: white;
+}
+.pic2 p{
+    font-size: 15px;
+    color: white;
+}
+.pic3 p{
+    font-size: 15px;
+    color: white;
+}
+
+.pic4 p{
+    font-size: 15px;
+    color: white;
+}
+.games1{
+width: 90%;
+margin-bottom: 100px ;
+padding: 40px 0;
+background: #eef1f6;
+
+}
+
+h1{
+text-align: center;
+margin-bottom: 40px;
+}
+
+.baras{
+display: flex;
+gap: 30px;
+justify-content: center;
+}
+
+.pora{
+width: 320px;
+background: white;
+border: 1px solid #ddd;
+}
+
+.pora img{
+width: 100%;
+height: 180px;
+}
+
+.pora1{
+width: 320px;
+background: white;
+border: 1px solid #ddd;
+}
+
+.pora1 img{
+width: 100%;
+height: 180px;
+}
+
+.pora2{
+width: 320px;
+background: white;
+border: 1px solid #ddd;
+}
+
+.pora2 img{
+width: 100%;
+height: 180px;
+}
+
+
+
+
+.word{
+padding: 20px;
+}
+
+.word h3{
+margin: 0 0 10px;
+}
+
+.word p{
+color: #666;
+font-size: 14px;
+}
+.word1{
+padding: 20px;
+}
+
+.word1 h3{
+margin: 0 0 10px;
+}
+
+.word1 p{
+color: #666;
+font-size: 14px;
+}
+.word2{
+padding: 20px;
+}
+
+.word2 h3{
+margin: 0 0 10px;
+}
+
+.word2 p{
+color: #666;
+font-size: 14px;
+}
+
+.ope{
+padding: 15px 20px;
+color: #666;
+}
+.ope1{
+padding: 15px 20px;
+color: #666;
+}
+.ope2{
+padding: 15px 20px;
+color: #666;
+}
+
+.por3{
+    background-image: url(https://preview.colorlib.com/theme/gamewarrior/img/pattern.png);
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.two{
+    margin-top: 40px;
+}
+.two h2{
+    color: orange;
+}
+.two p{
+    color: whitesmoke;
+}
+.two p span{
+    color: orange;
+}
+.one{
+    margin-top: 40px;
+}
+.one h2{
+    color: orange;
+}
+.one p{
+    color: whitesmoke;
+}
+.one p span{
+    color: orange;
+}
+.pare{
+    background-image: url(https://preview.colorlib.com/theme/gamewarrior/img/review-bg.png);
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+
+.four1{
+    background-image: url(https://preview.colorlib.com/theme/gamewarrior/img/review/1.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 20%;
+    margin-top: 150px;
+}
+
+.four1 h2{
+    padding-top: 400px;
+}
+.four2{
+    background-image: url(https://preview.colorlib.com/theme/gamewarrior/img/review/2.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 20%;  
+     margin-top: 150px;
+
+}
+.four2 h2{
+    padding-top: 400px;
+}
+
+.four3{
+    background-image: url(https://preview.colorlib.com/theme/gamewarrior/img/review/3.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 20%;
+    margin-top: 150px;
+
+}
+.four3 h2{
+    padding-top: 400px;
+}
+
+.four4{
+    background-image: url(https://preview.colorlib.com/theme/gamewarrior/img/review/4.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 20%;
+    margin-top: 150px;
+
+}
+.four4 h2{
+    padding-top: 400px;
+}
+
+.pare{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rabta{
+    width: 500px;   
+    background: white;
+    padding: 30px;  
+    margin: 80px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 50px gray;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+#pros{
+    margin-top: 25px;
+    margin-left: 200px;
+    background: rgba(255, 255, 0, 0.479);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+#pros:hover{
+    color: darkorange;
+    transition: 0.3s;
+}
+
+@media (max-width: 768px){
+
+.top{
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.nav2{
+    margin: 10px 0;
+}
+
+.text2 h1{
+    flex-direction: column;
+    align-items: center;
+}
+
+.text2 p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+button{
+    margin-left: 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.por{
+    flex-wrap: wrap;
+}
+
+.pic1{
+    width: 45%;
+}
+.pic2{
+    width: 45%;
+}
+.pic3{
+    width: 45%;
+}
+.pic4{
+    width: 45%;
+}
+
+.baras{
+    flex-wrap: wrap;
+}
+
+.pora{
+    width: 45%;
+}
+.pora1{
+    width: 45%;
+}
+.pora2{
+    width: 45%;
+}
+
+
+.por3{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.pare{
+    flex-wrap: wrap;
+    height: auto;
+    gap: 30px;
+}
+
+.four1{
+    width: 40%;
+}
+.four2{
+    width: 40%;
+}
+.four3{
+    width: 40%;
+}
+.four4{
+    width: 40%;
+}
+.rabta{
+    width: 80%;
+}
+
+}
+
+
+
+@media (max-width: 480px){
+
+.top{
+    padding: 15px;
+}
+
+.nav2 a{
+    display: block;
+    margin: 8px 0;
+}
+
+.text2{
+    font-size: 35px;
+    padding-left: 0;
+}
+#fop{
+    font-size: 35px;
+    padding-left: 0px;
+}
+#fo1{
+    font-size: 35px;
+    padding-left: 0px;
+}
+#fop1{
+    font-size: 35px;
+    padding-left: 0px;
+}
+.text2 p{
+    width: 90%;
+}
+
+.pic1{
+    width: 90%;
+}
+.pic2{
+    width: 90%;
+}
+
+.pic3{
+    width: 90%;
+}
+.pic1{
+    width: 90%;
+}
+.pora{
+    width: 90%;
+}
+.pora1{
+    width: 90%;
+}
+.pora2{
+    width: 90%;
+}
+
+
+
+.four1{
+    width: 80%;
+}
+.four2{
+    width: 80%;
+}
+.four3{
+    width: 80%;
+}
+.four4{
+    width: 80%;
+}
+
+
+.rabta{
+    width: 80%;
+}
+
+#pros{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 400px;
+}
+
+}
